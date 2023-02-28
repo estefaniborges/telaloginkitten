@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login Kawaii</title>
+    <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+    body{
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        background-image: linear-gradient(65deg, rgb(253, 236, 247), rgb(253, 175, 226), rgb(255, 245, 181));
+        background-repeat: no-repeat;
+        width: 1200px;
+        height: 600px;
+    }
+
+    .telalogin{
+        background-color: rgb(255, 255, 255, 0.4);
+        width:250px;
+        height:250px;
+        border-radius: 10px;
+        position: absolute;
+        top: 30%;
+        left: 35%;
+      
+    }
+
+    h1{
+        color:rgb(146, 145, 146);
+    }
+
+    form{
+       color:rgb(81, 81, 81);
+       display: flex;
+       flex-direction: column;
+    }
+
+    input{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height:20px;
+        margin-top: 10px;
+        margin-left: 40px;
+        border: rgb(249, 112, 181) solid 1px;
+        border-radius: 5px;
+    }
+    
+    button{
+        color:rgb(146, 145, 146);
+        border-radius: 10px;
+        border:rgb(249, 112, 181) solid 1px;
+        width: 60px;
+        height:30px;
+        background: rgb(255, 255, 255);
+        margin-top: 15px;
+    }
+
+    .link{
+        color:rgb(81, 81, 81);
+    }
+
+    .gatinho{
+        width:150px;
+        height: 150px;
+        margin: 80px;
+        margin-left: 470px;
+
+    }
+
+    .imagem{
+        width: 100%;
+        object-fit: contain;
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="telalogin">
+        <h1>Login</h1>
+        <form>
+            <div class="login">
+                <input class="email" type="email" name="e-mail" placeholder="e-mail"/>
+                <input class="senha" type="password" name="senha" placeholder="senha"/>
+                <button  class="botao" type="submite">Enviar</button>
+            </div>
+
+            
+            <p>Ainda não tem um cadastro?<br><a href="#" class="link">Clique aqui</a></p>
+        </form>
+    </div>
+
+    <div class="gatinho">
+        <img src="./img/gatinhofofo.png" class="imagem"/>
+    </div> 
+
+</body>
+</html>
